@@ -1,5 +1,3 @@
-/*lex program to implement
-		- a simple calculator.*/
 
 %{
 int op = 0,i;
@@ -27,9 +25,6 @@ ln \n
 digi()
 {
 if(op==0)
-
-/* atof() is used to convert
-	- the ASCII input to float */
 a=atof(yytext);
 
 else
